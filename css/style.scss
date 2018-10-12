@@ -1,0 +1,857 @@
+@font-face
+{
+  font-family : Dosis-Regular;
+  src         : url("../webfonts/Dosis-Regular.ttf");
+}
+
+/* Variables */
+
+/* Main Colors */
+$mainTextColor : #F2F5F6;
+$secondTextColor : #333;
+$navBgColor : #F23557;
+$bgColor : #DEE1E2;
+
+/*Font-size*/
+$fontSize : 18px;
+
+/* Screen Sizes */
+$mediumScreen : 767px;
+$largeScreen : 991px;
+
+/* Global Style */
+*
+{
+  font-family    : 'Dosis-Regular', sans-serif;
+  text-transform : capitalize;
+  box-sizing     : border-box;
+  outline        : none;
+  color          : $secondTextColor;
+  line-height    : 1.6;
+}
+
+p
+{
+  margin-bottom : 0;
+}
+
+body
+{
+  background-color : $bgColor;
+  /* Start NavBar */
+
+  .nav-horizontal
+  {
+	.navbar-toggler
+	{
+	  height : 100%;
+	  i
+	  {
+		color     : $mainTextColor;
+		font-size : 25px;
+	  }
+	}
+	#navbarSupportedContent
+	{
+	  background-color : $navBgColor;
+	  box-shadow       : 0 3px 3px -2px $secondTextColor;
+	  form ul li
+	  {
+		display     : block !important;
+		width       : 100%;
+		margin-left : 20px;
+	  }
+	}
+  }
+  .navbar
+  {
+	background-color : $navBgColor;
+	z-index          : 2;
+	box-shadow       : 0 0 3px 0 $secondTextColor;
+	position         : fixed;
+	top              : 0;
+	left             : 0;
+	width            : 100%;
+	height           : 56px;
+	li.nav-item
+	{
+	  padding : 8px 16px;
+	  &:last-child
+	  {
+		padding-right : 0;
+	  }
+	  a
+	  {
+		color      : $mainTextColor;
+		transition : color 0.2s ease-in-out;
+		padding    : 0;
+		position   : relative;
+		font-size  : $fontSize;
+		&:before
+		{
+		  content    : "";
+		  position   : absolute;
+		  left       : 0;
+		  bottom     : 0;
+		  height     : 2px;
+		  width      : 0;
+		  background : $mainTextColor;
+		  transition : width 0.2s ease-in-out,
+		  background-color 0.2s ease-in-out;
+		}
+		&:hover
+		{
+		  color : $secondTextColor;
+		  &:before
+		  {
+			background-color : $secondTextColor;
+			width            : 100%;
+		  }
+		}
+	  }
+	}
+  }
+  /* End NavBar */
+
+  /* Start OverView Section */
+  .overview
+  {
+	height     : calc(100vh - 56px);
+	margin-top : 56px;
+	@media screen and (max-width : $mediumScreen)
+	{
+	  width  : 90%;
+	  margin : auto;
+	  height : auto;
+	}
+	.overview-inner
+	{
+	  background-color : $bgColor;
+	  height           : 550px;
+	  box-shadow       : 0 0 2px 0 $navBgColor;
+	  border-radius    : 0.25rem;
+	  overflow         : hidden;
+	  padding-bottom   : 1rem;
+	  @media screen and (max-width : $mediumScreen)
+	  {
+		margin-top : 85px;
+		height     : auto
+	  }
+	  .head
+	  {
+		color            : $mainTextColor;
+		background-color : $navBgColor;
+		text-align       : center;
+		box-shadow       : 0 0 3px 0 $secondTextColor;
+		h4
+		{
+		  padding       : 10px 0;
+		  margin-bottom : 0;
+		  @media screen and (max-width : $mediumScreen)
+		  {
+			font-size : 1.2rem;
+			padding   : 5px 0;
+		  }
+		}
+	  }
+	  .row
+	  {
+		height : calc(100% - 30px);
+	  }
+	  .personal-details
+	  {
+		border-right : 1px solid rgba(242, 53, 87, 0.5);
+		color        : $secondTextColor;
+		text-align   : center;
+		height       : 100%;
+		@media screen and (max-width : $mediumScreen)
+		{
+		  border-right : none;
+		}
+		.img-container
+		{
+		  margin-left : 5px;
+		  @media screen and (min-width : $largeScreen)
+		  {
+			margin-left : 0;
+		  }
+		  img
+		  {
+			width         : 80px;
+			border-radius : 0 0 50% 50%;
+			filter        : grayscale(50%);
+			transition    : filter 0.2s ease-in-out;
+			&:hover
+			{
+			  filter : grayscale(0);
+			}
+			@media screen and (max-width : $mediumScreen)
+			{
+			  width         : 50px;
+			  border-radius : 0 0 50% 50%;
+			  filter        : none;
+			}
+		  }
+		  .name
+		  {
+			margin-top : 10px;
+			@media screen and (max-width : $mediumScreen)
+			{
+			  margin-top : 5px;
+			  /*margin-left : 20px;*/
+			  text-align : center;
+			}
+			h4
+			{
+			  font-size : 1.4rem;
+			  @media screen and (max-width : $mediumScreen)
+			  {
+				font-size     : 1.2rem;
+				margin-bottom : 5px;
+			  }
+			}
+		  }
+		}
+		.details
+		{
+		  margin-top : 8px;
+		  @media screen and (max-width : $mediumScreen)
+		  {
+			margin-top     : 0;
+			position       : relative;
+			border-bottom  : 1px solid rgba(242, 53, 87, 0.5);
+			padding-bottom : 10px;
+			padding-left   : 10px;
+		  }
+		  .location
+		  {
+			i
+			{
+			  color : #F23557;
+			}
+		  }
+		  .language
+		  {
+			h6
+			{
+			  @media screen and (max-width : $mediumScreen)
+			  {
+				margin-bottom : 4px;
+			  }
+			}
+			ul
+			{
+			  text-align    : left;
+			  margin-bottom : 0;
+			  list-style    : circle;
+			  display       : inline-block;
+			  padding       : 0;
+			}
+		  }
+		  .social
+		  {
+			@media screen and (max-width : $mediumScreen)
+			{
+			  position         : absolute;
+			  right            : 0;
+			  bottom           : 0;
+			  background-color : $mainTextColor;
+			  border-radius    : 9px 0 0 9px;
+			  padding          : 5px;
+			}
+			a
+			{
+			  display       : inline-block;
+			  width         : 35px;
+			  height        : 35px;
+			  line-height   : 35px;
+			  border-radius : 50%;
+			  transition    : background-color 0.2s ease-in-out;
+			  @media screen and (max-width : $mediumScreen)
+			  {
+				width         : 25px;
+				height        : 25px;
+				line-height   : 25px;
+				display       : block;
+				text-align    : center;
+				margin-bottom : 5px;
+				margin-right  : 0;
+			  }
+			  i
+			  {
+				transition : color 0.2s ease-in-out;
+				font-size  : 1.25rem;
+				@media screen and (max-width : $mediumScreen)
+				{
+				  font-size : 1rem;
+				}
+			  }
+			  &:not(:last-of-type)
+			  {
+				margin-right : 5px;
+				@media screen and (max-width : $mediumScreen)
+				{
+				  margin-right : 0;
+				}
+			  }
+			  &:nth-of-type(1)
+			  {
+				i
+				{
+				  color : #FFF;
+				}
+				background-color : #3B5998;
+				&:hover
+				{
+				  background-color : #FFF;
+				  i
+				  {
+					color : #3B5998;
+				  }
+				}
+			  }
+			  &:nth-of-type(2)
+			  {
+				i
+				{
+				  color : #FFF;
+				}
+				background-color : #1DA1F2;
+				&:hover
+				{
+				  background-color : #FFF;
+				  i
+				  {
+					color : #1DA1F2;
+				  }
+				}
+			  }
+			  &:nth-of-type(3)
+			  {
+				i
+				{
+				  color : #FFF;
+				}
+				background-color : #0077B5;
+				&:hover
+				{
+				  background-color : #FFF;
+				  i
+				  {
+					color : #0077B5;
+				  }
+				}
+			  }
+			  &:nth-of-type(4)
+			  {
+				i
+				{
+				  color : #FFF;
+				}
+				background-color : #1769FF;
+				&:hover
+				{
+				  background-color : #FFF;
+				  i
+				  {
+					color : #1769FF;
+				  }
+				}
+			  }
+			  &:nth-of-type(5)
+			  {
+				i
+				{
+				  color : #FFF;
+				}
+				background-color : #333;
+				&:hover
+				{
+				  background-color : #FFF;
+				  i
+				  {
+					color : #333;
+				  }
+				}
+			  }
+			}
+		  }
+		  .btns
+		  {
+			a
+			{
+			  display : block;
+			  &:first-of-type
+			  {
+				margin-top    : 8px;
+				margin-bottom : 20px;
+				@media screen and (max-width : $mediumScreen)
+				{
+				  margin-bottom : 10px;
+				}
+			  }
+			  button
+			  {
+				color            : $mainTextColor;
+				border-radius    : 6px;
+				padding          : 0.4rem 1rem;
+				display          : inline-block;
+				background-color : $navBgColor;
+				border           : none;
+				cursor           : pointer;
+				overflow         : hidden;
+				transition       : color 0.3s linear;
+				position         : relative;
+				font-size        : $fontSize;
+				@media screen and (max-width : $largeScreen)
+				{
+				  padding : 5px;
+				}
+				&:before
+				{
+				  content      : "";
+				  position     : absolute;
+				  top          : 0;
+				  left         : 0;
+				  width        : 0;
+				  height       : 100%;
+				  transition   : width 0.3s linear,
+				  border 0.3s linear;
+				  border-right : 0 solid $mainTextColor;
+				}
+				&:hover
+				{
+				  color : $secondTextColor;
+				  &:before
+				  {
+					border-right : 3px solid rgba(255, 255, 255, 0.2);
+					width        : 105%;
+				  }
+				}
+			  }
+			}
+		  }
+		}
+	  }
+	  .paragraph
+	  {
+		margin-top : 30px;
+		@media screen and (max-width : $mediumScreen)
+		{
+		  margin-top : 5px;
+		}
+		h5
+		{
+		  display        : inline-block;
+		  border-bottom  : 1px solid $mainTextColor;
+		  padding-bottom : 3px;
+		  padding-right  : 3px;
+		  margin-bottom  : 30px;
+		  @media screen and (max-width : $mediumScreen)
+		  {
+			margin-bottom : 5px;
+			font-size     : 1rem;
+		  }
+		}
+		span
+		{
+		  @media screen and (max-width : $mediumScreen)
+		  {
+			font-size : 12px;
+			display   : contents;
+		  }
+		}
+		p
+		{
+		  margin-left   : 1rem;
+		  margin-bottom : 0;
+		  font-size     : $fontSize;
+		  @media screen and (max-width : $mediumScreen)
+		  {
+			font-size : 12px;
+			display   : contents;
+		  }
+		}
+		ul
+		{
+		  margin-bottom : 0;
+		  list-style    : circle;
+		  /*&:last-of-type
+		  {
+			list-style : disc;
+		  }*/
+		}
+	  }
+	}
+  }
+  /* End OverView Section */
+  .education
+  {
+	@extend .overview;
+	.education-inner
+	{
+	  @extend .overview-inner;
+	  .head
+	  {
+		@extend .head;
+	  }
+	  .education-details
+	  {
+		padding       : 30px 0;
+		border-bottom : 1px solid rgba(242, 53, 87, 0.5);
+		h4
+		{
+		  display       : inline-block;
+		  padding       : 0 5px 3px 5px;
+		  margin-bottom : 10px;
+		  border-bottom : 1px solid $mainTextColor;
+		  @media screen and (max-width : $mediumScreen)
+		  {
+			font-size : 1.25rem;
+		  }
+		}
+		h5
+		{
+		  @media screen and (max-width : $mediumScreen)
+		  {
+			font-size : 1rem;
+		  }
+		}
+		p
+		{
+		  @media screen and (max-width : $mediumScreen)
+		  {
+			font-size : 0.9rem;
+		  }
+		}
+	  }
+	  .skills-details
+	  {
+		padding    : 20px 0;
+		text-align : center;
+		h4
+		{
+		  display       : inline-block;
+		  padding       : 0 5px 3px 5px;
+		  border-bottom : 1px solid $mainTextColor;
+		  margin-bottom : 50px;
+		  @media screen and (max-width : $mediumScreen)
+		  {
+			font-size     : 1.25rem;
+			margin-bottom : 15px;
+		  }
+		}
+		.html, .css, .javascript, .bootstrap, .jquery, .sass, .git
+		{
+		  display       : inline-block;
+		  width         : 110px;
+		  height        : 110px;
+		  border-radius : 50%;
+		  margin        : auto;
+		  &:not(:last-of-type)
+		  {
+			margin-right : 20px;
+		  }
+		  @media screen and (max-width : 1200px)
+		  {
+			width  : 90px;
+			height : 90px;
+		  }
+		  @media screen and (max-width : 1200px)
+		  {
+			width  : 90px;
+			height : 90px;
+		  }
+		}
+		.html
+		{
+		  background      : url("../img/logos/html5.svg") no-repeat center #E54D26;
+		  background-size : 100px;
+		  @media screen and (max-width : 1200px)
+		  {
+			background-size : 80px;
+		  }
+		}
+		.css
+		{
+		  background      : url("../img/logos/css3.svg") no-repeat center #379AD6;
+		  background-size : 100px;
+		}
+		.javascript
+		{
+		  background      : url("../img/logos/javascript.svg") no-repeat center #F7DF1E;
+		  background-size : 100px;
+		}
+		.bootstrap
+		{
+		  background      : url("../img/logos/bootstrap.svg") no-repeat center #563D7C;
+		  background-size : 100px;
+		}
+		.jquery
+		{
+		  background      : url("../img/logos/jquery.svg") no-repeat center #304F97;
+		  background-size : 100px;
+		}
+		.sass
+		{
+		  background      : url("../img/logos/sass.svg") no-repeat center #8C4E92;
+		  background-size : 100px;
+		}
+		.git
+		{
+		  background      : url("../img/logos/git.svg") no-repeat center #F05133;
+		  background-size : 100px;
+		}
+	  }
+	}
+  }
+
+  .portfolio
+  {
+	@extend .overview;
+	.portfolio-inner
+	{
+	  @extend .overview-inner;
+	  padding-bottom : 0;
+	  .head
+	  {
+		@extend .head;
+	  }
+	  .owl-carousel-row
+	  {
+		height : calc(550px - 54px);
+		.owl-carousel
+		{
+		  .owl-item
+		  {
+			.project
+			{
+			  text-align : center;
+			  img
+			  {
+				max-height : 90%;
+				width      : auto;
+				margin     : auto;
+			  }
+			  a
+			  {
+				text-align      : center;
+				display         : inline-block;
+				color           : $secondTextColor;
+				margin-top      : 20px;
+				border          : 2px solid $navBgColor;
+				border-radius   : 9px 3px;
+				padding         : 5px;
+				text-decoration : none;
+				transition      : 0.2s background-color ease-in-out,
+				0.2s color ease-in-out;
+				&:hover
+				{
+				  background-color : $navBgColor;
+				  color            : $mainTextColor;
+				  i
+				  {
+					color : $mainTextColor;
+				  }
+				}
+				i
+				{
+				  color      : $secondTextColor;
+				  transition : color 0.2s ease-in-out;
+				}
+			  }
+			}
+		  }
+		  .owl-prev, .owl-next
+		  {
+			position         : absolute;
+			top              : 0;
+			height           : 80%;
+			background-color : transparent;
+			border           : none;
+			outline          : none;
+			&:hover
+			{
+			  color : $navBgColor;
+			  i
+			  {
+				color : rgba(242, 53, 87, 0.5);
+			  }
+			}
+			i
+			{
+			  font-size  : 2rem;
+			  color      : $navBgColor;
+			  transition : color 0.2s ease-in-out;
+			}
+		  }
+		  .owl-prev
+		  {
+			left : 0;
+		  }
+		  .owl-next
+		  {
+			right : 0;
+		  }
+		}
+	  }
+	  .mobile-imgs
+	  {
+		a
+		{
+		  font-size       : 0.9rem;
+		  color           : $secondTextColor;
+		  text-decoration : none;
+		  display         : inline-block;
+		  i
+		  {
+			color : $navBgColor;
+		  }
+		}
+		.port-img-container
+		{
+		  img
+		  {
+			max-width : 100%;
+		  }
+		}
+	  }
+	}
+  }
+
+  .contactMe
+  {
+	@extend .overview;
+	.contactMe-inner
+	{
+	  @extend .overview-inner;
+	  @media screen and (max-width : $mediumScreen)
+	  {
+		margin-bottom : 85px;
+	  }
+	  .head
+	  {
+		@extend .head;
+	  }
+	  .contactMe-group
+	  {
+		height : calc(100% - 47px);
+		.contactMe-form
+		{
+		  @media screen and (max-width : $mediumScreen)
+		  {
+			margin-top : 1rem
+		  }
+		  .title
+		  {
+			height : 35px;
+			select
+			{
+			  vertical-align : unset;
+			  height         : 35px;
+			  border         : none;
+			  border-right   : 1px solid $mainTextColor;
+			  border-radius  : 1rem 0 0 1rem;
+			  width          : 35%;
+			  @media screen and (max-width : $mediumScreen)
+			  {
+				width : 38%;
+			  }
+			}
+			input
+			{
+			  @extend select;
+			  border-right  : none;
+			  margin-left   : -4px;
+			  padding-left  : 5px;
+			  border-radius : 0 1rem 1rem 0;
+			  width         : 64%;
+			  @media screen and (max-width : $mediumScreen)
+			  {
+				width : 61%;
+			  }
+			}
+			@media screen and (max-width : $mediumScreen)
+			{
+			}
+		  }
+		  .email, .phone, .subject
+		  {
+			@extend .title;
+			input
+			{
+			  border-radius : 1rem;
+			  width         : 99%;
+			}
+		  }
+		  .message
+		  {
+			textarea
+			{
+			  width         : 99%;
+			  height        : 150px;
+			  border        : none;
+			  padding       : 5px;
+			  border-radius : 1rem;
+			  resize        : none;
+			}
+		  }
+		  .send
+		  {
+			button
+			{
+			  border           : none;
+			  padding          : 5px;
+			  background-color : $navBgColor;
+			  color            : $mainTextColor;
+			  width            : 50%;
+			  border-radius    : 1rem;
+			  cursor           : pointer;
+			  margin-top       : 1rem;
+			  transition       : color 0.2s ease-in-out,
+			  background-color 0.2s ease-in-out;
+			  &:hover
+			  {
+				background-color : $mainTextColor;
+				color            : $navBgColor;
+				i
+				{
+				  color : $navBgColor;
+				}
+			  }
+			  i
+			  {
+				margin-left : 5px;
+				color       : $mainTextColor;
+				transition  : color 0.2s ease-in-out;
+			  }
+			  @media screen and (max-width : $mediumScreen)
+			  {
+				width : 80%;
+			  }
+			}
+		  }
+		}
+	  }
+	}
+  }
+
+  .modal
+  {
+	.modal-content
+	{
+	  @media screen and (max-width : $mediumScreen)
+	  {
+		width  : 85%;
+		margin : auto;
+	  }
+	}
+  }
+
+}
+
+/* Start Media Query */
+
+@media screen and (max-width : 768px)
+{
+}

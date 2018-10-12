@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="Layer_1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+	 style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#379AD6;}
+	.st1{fill:#FFFFFF;}
+</style>
+<rect x="0.2" class="st0" width="512" height="512"/>
+<g id="g3021">
+</g>
+<g id="g2990">
+	<g id="g3759">
+		<path id="rect2989" class="st0" d="M440.8,474h-372c-38.7,0-70-31.3-70-70V32c0-38.7,31.3-70,70-70h372c38.7,0,70,31.3,70,70v372
+			C510.8,442.7,479.5,474,440.8,474z"/>
+	</g>
+	<g id="g3015" transform="matrix(1.2330496,0,0,1.2330496,-59.66069,-59.660695)">
+		<polygon id="polygon3962" class="st1" points="145,131.8 165.6,355.2 255,379.3 344.4,355.2 365,131.8 		"/>
+		<polygon id="polygon3968" class="st1" points="255,149.9 255,360.1 255.2,360.2 327.5,340.7 344.2,149.9 		"/>
+		<path id="path4016" class="st1" d="M189.7,112.2h34V98.9h-19.4V85.6h19.4V71h-34V112.2z M238.2,85.7c4.5,4.5,6.9,6.7,13.5,13.3
+			c-3.8,0-13.5,0-13.5,0v13.2h34V98.9l-13.6-13.3h13.6V71h-34C238.2,71.1,238.2,78.4,238.2,85.7z M320.3,71.1h-34c0,0,0,7.3,0,14.6
+			c4.5,4.5,6.9,6.7,13.5,13.3c-3.8,0-13.5,0-13.5,0v13.2h34V98.9l-13.6-13.3h13.6V71.1z"/>
+		<path id="path4169" class="st0" d="M185.1,176.9l4,27.2l69.5-0.5l-67,28.2l1.8,27h95l-2.3,35.5l-30.5,9.3l-31-8.5l-1.8-21.3h-27.3
+			l3.5,41.8l55.7,16.2l56.7-15.7l7-84.3h-64.2l66.7-28.2l2-27L185.1,176.9z"/>
+	</g>
+</g>
+<g id="Layer_1_1_">
+</g>
+<rect x="157.5" y="23.3" class="st0" width="227" height="60"/>
+</svg>
