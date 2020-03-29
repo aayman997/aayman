@@ -13,8 +13,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-p {
-  margin-bottom: 0;
+a {
+  display: inline-block;
+  text-decoration: none;
 }
 
 body {
@@ -24,9 +25,8 @@ body {
 body .con {
   align-items: center;
   display: grid;
-  grid-gap: 140px;
   grid-template-columns: repeat(1, auto);
-  grid-template-rows: repeat(1, auto);
+  grid-template-rows: 1fr 52px;
   justify-items: center;
   margin: auto;
   max-width: 80%;
@@ -59,6 +59,22 @@ body .con .text a {
 body .con .text a:hover {
   background-color: #F9F9F9;
   color: #001621;
+}
+body .con .creator {
+  grid-column: 1/1;
+  grid-row: 2/2;
+  align-self: end;
+  margin-bottom: 20px;
+  justify-self: right;
+  height: auto;
+}
+body .con .creator a {
+  border-bottom: 3px solid #005082;
+}
+body .con .creator a svg {
+  width: 24px;
+  height: 24px;
+  vertical-align: sub;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -29,8 +29,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight : 700;
 }
 
-p {
-  margin-bottom : 0;
+a {
+  display         : inline-block;
+  text-decoration : none;
 }
 
 body {
@@ -40,9 +41,9 @@ body {
   .con {
     align-items           : center;
     display               : grid;
-    grid-gap              : 140px;
+    //grid-gap              : 140px;
     grid-template-columns : repeat(1, auto);
-    grid-template-rows    : repeat(1, auto);
+    grid-template-rows    : 1fr 52px;
     justify-items         : center;
     margin                : auto;
     max-width             : 80%;
@@ -78,6 +79,25 @@ body {
         &:hover {
           background-color : $mainTextColor;
           color            : $bgColor;
+        }
+      }
+    }
+
+    .creator {
+      grid-column   : 1 / 1;
+      grid-row      : 2 / 2;
+      align-self    : end;
+      margin-bottom : 20px;
+      justify-self  : right;
+      height        : auto;
+
+      a {
+        border-bottom : 3px solid $secondTextColor;
+
+        svg {
+          width          : 24px;
+          height         : 24px;
+          vertical-align : sub;
         }
       }
     }
