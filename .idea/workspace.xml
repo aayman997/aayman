@@ -1,11 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58f0a848-5d3a-4f4f-9cad-26bcb68dc52b" name="Default Changelist" comment="">
+    <list default="true" id="58f0a848-5d3a-4f4f-9cad-26bcb68dc52b" name="Default Changelist" comment="coming soon branch">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Ahmed_Ayman.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv/AhmedAyman_FrontEndWebDeveloper.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/cv/AhmedAyman_FrontEndWebDeveloper.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/IMG_3702.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logos/bootstrap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logos/bootstrap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logos/css3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logos/css3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logos/git.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logos/git.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logos/html5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logos/html5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logos/javascript.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logos/javascript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logos/jquery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logos/jquery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logos/sass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logos/sass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/catering-service.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/consilla.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/e-pharma.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/full-image/catering-service.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/full-image/consilla.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/full-image/e-pharma.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/full-image/onlearn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/full-image/sid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/full-image/tanatos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/full-image/tasty.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/full-image/unbilt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/onlearn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/sid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/tanatos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/tasty.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/unbilt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webfonts/Dosis-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.woff2" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +68,41 @@
     <option name="naggedAbout" value="1" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="v2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="coming-soon" />
+                    <option name="lastUsedInstant" value="1585490660" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="v2" />
+                    <option name="lastUsedInstant" value="1585490624" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1585490623" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -27,10 +112,15 @@
   </component>
   <component name="ProjectId" id="1TvsZwqaswMClrU1RzKDQ0IupOO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cv" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,28 +128,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\resume\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\resume\css" />
       <recent name="D:\resume\js" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\resume\cv" />
+      <recent name="D:\resume\js" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -72,11 +151,15 @@
       <option name="presentableId" value="Default" />
       <updated>1574351962655</updated>
       <workItem from="1574351965327" duration="4924000" />
+      <workItem from="1574607024081" duration="8000" />
+      <workItem from="1580289245793" duration="1620000" />
+      <workItem from="1585486963196" duration="373000" />
+      <workItem from="1585490452062" duration="3228000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -88,5 +171,44 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585491454308">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585491454308" />
+    <state x="496" y="6" key="CommitChangelistDialog2" timestamp="1585493536751">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="496" y="6" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585493536751" />
+    <state x="584" y="302" key="EditFileWatcherDialog" timestamp="1585490962597">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="584" y="302" key="EditFileWatcherDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585490962597" />
+    <state x="540" y="267" key="IDE.errors.dialog" timestamp="1585490551231">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="540" y="267" key="IDE.errors.dialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585490551231" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1585490622900">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585490622900" />
+    <state x="491" y="169" key="SettingsEditor" timestamp="1585493701848">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="491" y="169" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585493701848" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585490546869">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585490546869" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585491337588">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585491337588" />
+    <state x="677" y="155" key="git4idea.branch.GitSmartOperationDialog" timestamp="1585490610430">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="677" y="155" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585490610430" />
   </component>
 </project>
