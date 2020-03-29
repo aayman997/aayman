@@ -4,7 +4,6 @@
     <list default="true" id="58f0a848-5d3a-4f4f-9cad-26bcb68dc52b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585496991022</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Edit Responsive">
+      <created>1585497094461</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585497094461</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,17 +139,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="coming soon branchn" />
-    <option name="LAST_COMMIT_MESSAGE" value="coming soon branchn" />
+    <MESSAGE value="Edit Responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit Responsive" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585491454308">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585491454308" />
-    <state x="496" y="6" key="CommitChangelistDialog2" timestamp="1585496989825">
+    <state x="496" y="6" key="CommitChangelistDialog2" timestamp="1585497092470">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="496" y="6" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585496989825" />
+    <state x="496" y="6" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585497092470" />
     <state x="584" y="302" key="EditFileWatcherDialog" timestamp="1585490962597">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -160,10 +167,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="491" y="169" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585493701848" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585497022109">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585497104805">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585497022109" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585497104805" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585491337588">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
