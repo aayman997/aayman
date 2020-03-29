@@ -84,20 +84,21 @@ body {
     }
 
     .creator {
+      align-self    : end;
       grid-column   : 1 / 1;
       grid-row      : 2 / 2;
-      align-self    : end;
-      margin-bottom : 20px;
-      justify-self  : right;
       height        : auto;
+      justify-self  : right;
+      margin-bottom : 20px;
 
       a {
-        border-bottom : 3px solid $secondTextColor;
+        border-bottom  : 3px solid $secondTextColor;
+        padding-bottom : 5px;
 
         svg {
-          width          : 24px;
           height         : 24px;
           vertical-align : sub;
+          width          : 24px;
         }
       }
     }

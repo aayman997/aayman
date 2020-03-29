@@ -61,20 +61,21 @@ body .con .text a:hover {
   color: #001621;
 }
 body .con .creator {
+  align-self: end;
   grid-column: 1/1;
   grid-row: 2/2;
-  align-self: end;
-  margin-bottom: 20px;
-  justify-self: right;
   height: auto;
+  justify-self: right;
+  margin-bottom: 20px;
 }
 body .con .creator a {
   border-bottom: 3px solid #005082;
+  padding-bottom: 5px;
 }
 body .con .creator a svg {
-  width: 24px;
   height: 24px;
   vertical-align: sub;
+  width: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */
