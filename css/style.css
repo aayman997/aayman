@@ -1,6 +1,6 @@
 *:not(i) {
   box-sizing: border-box;
-  color: #F9F9F9;
+  color: #f9f9f9;
   font-family: "Rajdhani", sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
@@ -47,9 +47,9 @@ body .con .text h5 {
 }
 body .con .text a {
   background-color: transparent;
-  border: 3px solid #F9F9F9;
+  border: 3px solid #f9f9f9;
   border-radius: 8px;
-  color: #F9F9F9;
+  color: #f9f9f9;
   display: inline-block;
   font-size: 22px;
   padding: 10px 40px;
@@ -57,7 +57,7 @@ body .con .text a {
   transition: 0.4s ease-in-out background-color, 0.4s ease-in-out color;
 }
 body .con .text a:hover {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   color: #001621;
 }
 body .con .creator {
@@ -69,8 +69,22 @@ body .con .creator {
   margin-bottom: 20px;
 }
 body .con .creator a {
-  border-bottom: 3px solid #005082;
   padding-bottom: 5px;
+  position: relative;
+}
+body .con .creator a:after {
+  content: "";
+  position: absolute;
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom: 3px solid #005082;
+  width: 0;
+  transition: 0.4s ease-in-out width;
+}
+body .con .creator a:hover:after {
+  width: 100%;
 }
 body .con .creator a svg {
   height: 24px;

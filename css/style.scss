@@ -6,7 +6,7 @@
 //Variables
 
 //Main Colors
-$mainTextColor   : #F9F9F9;
+$mainTextColor   : #f9f9f9;
 $secondTextColor : #005082;
 $bgColor         : #001621;
 
@@ -15,92 +15,110 @@ $fontSize        : 18px;
 
 //Global Style
 *:not(i) {
-  box-sizing     : border-box;
-  color          : $mainTextColor;
-  font-family    : 'Rajdhani', sans-serif;
-  font-weight    : 700;
-  letter-spacing : 1px;
-  line-height    : 1.2;
-  outline        : none;
-  text-transform : capitalize;
+	box-sizing     : border-box;
+	color          : $mainTextColor;
+	font-family    : 'Rajdhani', sans-serif;
+	font-weight    : 700;
+	letter-spacing : 1px;
+	line-height    : 1.2;
+	outline        : none;
+	text-transform : capitalize;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight : 700;
+	font-weight : 700;
 }
 
 a {
-  display         : inline-block;
-  text-decoration : none;
+	display         : inline-block;
+	text-decoration : none;
 }
 
 body {
-  background-color : $bgColor;
-  margin           : 0;
-
-  .con {
-    align-items           : center;
-    display               : grid;
-    //grid-gap              : 140px;
-    grid-template-columns : repeat(1, auto);
-    grid-template-rows    : 1fr 54px;
-    justify-items         : center;
-    margin                : auto;
-    max-width             : 80%;
-    min-height            : 100vh;
-
-    .text {
-      grid-column : 1 / 1;
-      grid-row    : 1 / 1;
-      text-align  : center;
-
-      h1 {
-        font-size : 64px;
-        margin    : 0 0 20px 0;
-      }
-
-      h5 {
-        font-size : 28px;
-        margin    : 0 0 40px 0;
-      }
-
-      a {
-        background-color : transparent;
-        border           : 3px solid $mainTextColor;
-        border-radius    : 8px;
-        color            : $mainTextColor;
-        display          : inline-block;
-        font-size        : 22px;
-        padding          : 10px 40px;
-        text-decoration  : none;
-        transition       : 0.4s ease-in-out background-color,
-        0.4s ease-in-out color;
-
-        &:hover {
-          background-color : $mainTextColor;
-          color            : $bgColor;
-        }
-      }
-    }
-
-    .creator {
-      align-self    : end;
-      grid-column   : 1 / 1;
-      grid-row      : 2 / 2;
-      height        : auto;
-      justify-self  : right;
-      margin-bottom : 20px;
-
-      a {
-        border-bottom  : 3px solid $secondTextColor;
-        padding-bottom : 5px;
-
-        svg {
-          height         : 24px;
-          vertical-align : sub;
-          width          : 24px;
-        }
-      }
-    }
-  }
+	background-color : $bgColor;
+	margin           : 0;
+	
+	.con {
+		align-items           : center;
+		display               : grid;
+		//grid-gap              : 140px;
+		grid-template-columns : repeat(1, auto);
+		grid-template-rows    : 1fr 54px;
+		justify-items         : center;
+		margin                : auto;
+		max-width             : 80%;
+		min-height            : 100vh;
+		
+		.text {
+			grid-column : 1 / 1;
+			grid-row    : 1 / 1;
+			text-align  : center;
+			
+			h1 {
+				font-size : 64px;
+				margin    : 0 0 20px 0;
+			}
+			
+			h5 {
+				font-size : 28px;
+				margin    : 0 0 40px 0;
+			}
+			
+			a {
+				background-color : transparent;
+				border           : 3px solid $mainTextColor;
+				border-radius    : 8px;
+				color            : $mainTextColor;
+				display          : inline-block;
+				font-size        : 22px;
+				padding          : 10px 40px;
+				text-decoration  : none;
+				transition       : 0.4s ease-in-out background-color,
+				0.4s ease-in-out color;
+				
+				&:hover {
+					background-color : $mainTextColor;
+					color            : $bgColor;
+				}
+			}
+		}
+		
+		.creator {
+			align-self    : end;
+			grid-column   : 1 / 1;
+			grid-row      : 2 / 2;
+			height        : auto;
+			justify-self  : right;
+			margin-bottom : 20px;
+			
+			a {
+				padding-bottom : 5px;
+				position       : relative;
+				
+				&:after {
+					content       : '';
+					position      : absolute;
+					top           : auto;
+					left          : 0;
+					right         : 0;
+					bottom        : 0;
+					border-bottom : 3px solid $secondTextColor;
+					width         : 0;
+					transition    : 0.4s ease-in-out width;
+				}
+				
+				&:hover {
+					&:after {
+						width : 100%;
+					}
+				}
+				
+				svg {
+					height         : 24px;
+					vertical-align : sub;
+					width          : 24px;
+				}
+			}
+		}
+	}
 }
